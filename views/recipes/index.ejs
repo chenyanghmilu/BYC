@@ -1,0 +1,19 @@
+<%- include('../partials/header') %>
+
+<div class="container">
+    <header class="jumbotron" id="cheatdays" style="margin: 30px auto;">
+    <div class="container">
+        <h1>Discover the Health Food Recipes <br> After Exercise!</h1>
+        <br />
+        <form id="form">
+            <input id="search-input" type="text" name="search" placeholder="Enter an ingredient..."/>
+            <input id="submit" class="btn btn-raised btn-primary" type="submit" value="GO!" />
+        </form>
+    </div>
+    </header>
+        <div class="row" id="results" style="display: flex; justify-content: space-between; flex-wrap: wrap">           
+        </div>
+</div>
+<script defer src="/js/recipes.js" ></script>
+
+<%- include('../partials/footer') %>

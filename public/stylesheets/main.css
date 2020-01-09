@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e7e3e3;
+    display:flex;
+    flex-direction:column;
+}
+
+.thumbnail img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.thumbnail{
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.thumbnail caption{
+    padding: 9px;
+}
+
+
+.delete-camp{
+    display: inline;
+}
+
+footer {
+    margin-top:auto;
+}
+
+.jumbotron {
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-workout-gettyimages-853930556-1540409352.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*);
+    background-size: cover;
+}
+
+#coachPage{
+    background-image: url(https://www.fitnessfirst.com.au/-/media/Project/FitnessFirst/Content/Fitness/Train-With-Us/SQUAD_1400x650.jpg?h=650&w=1400&la=en&hash=7BE46DAF5EFAE05FB19E9D968580623DB62B2439);
+    background-size: cover;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+    background-color:white;
+}
+
+#commentTextarea{
+    width: 400px;
+    height: 450px;
+    background-color:white;
+}
+
+#cheatdays{
+    color: whitesmoke;
+    background-image: url(https://foodrevolution.org/wp-content/uploads/blog-featured_healthy_foods-20180306.jpg);
+    background-size: cover;
+}
+
+#search-input{
+    height: 45px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+#submit{
+    margin-bottom: 0;
+    height: 45px;
+    width: 80px;
+    border-radius: 5px;
+}

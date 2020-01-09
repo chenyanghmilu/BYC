@@ -1,0 +1,27 @@
+<% include ../partials/header %>
+
+<div class="container" style="width: 30%; margin: 30px auto;">
+<h2 style="margin-bottom: 30px;">Edit Comment</h2>
+<form
+    action="/coaches/<%=coach_id%>/comments/<%=comment._id%>?_method=PUT"
+    method="POST"
+>
+    <div class="form-group">
+    <input
+        type="text"
+        name="comment[text]"
+        class="form-control"
+        value="<%=comment.text%>"
+    />
+    </div>
+    <input
+    type="submit"
+    value="Submit"
+    class="btn btn-lg btn-primary btn-block"
+    />
+</form>
+<a href="/coaches">Back</a>
+</div>
+<hr class="well">
+
+<% include ../partials/footer %>

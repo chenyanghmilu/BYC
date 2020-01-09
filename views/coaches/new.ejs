@@ -1,0 +1,57 @@
+<% include ../partials/header %>
+
+<div class="container" style="width: 30%; margin: 30px auto;">
+<h2 style="margin-bottom: 30px;">New Coach</h2>
+<form action="/coaches" method="POST">
+    <div class="form-group">
+    <input
+        type="text"
+        name="coach[name]"
+        class="form-control"
+        placeholder="name"
+    />
+    </div>
+    <div class="form-group">
+    <input
+        type="number"
+        name="coach[experience]"
+        class="form-control"
+        placeholder="experience"
+        min="0"
+        step="1"
+    />
+    </div>
+    <div class="form-group">
+        <input
+            type="text"
+            name="coach[location]"
+            class="form-control"
+            placeholder="gym's name"
+        />
+        </div>
+    <div class="form-group">
+    <input
+        type="text"
+        name="coach[image]"
+        class="form-control"
+        placeholder="image url"
+    />
+    </div>
+    <div class="form-group">
+    <input
+        type="text"
+        name="coach[description]"
+        class="form-control"
+        placeholder="description"
+    />
+    </div>
+    <input
+    type="submit"
+    value="Submit"
+    class="btn btn-lg btn-primary btn-block"
+    />
+</form>
+<a href="/coaches">Back</a>
+</div>
+<hr class="well">
+<% include ../partials/footer %>

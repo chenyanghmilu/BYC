@@ -12,6 +12,8 @@ var courseSchema = new Schema({
 
   price: Number,
 
+  gym: String,
+  
   location: String,
 
   description: String,

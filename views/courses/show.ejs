@@ -20,7 +20,7 @@
           <p><%= course.description%></p>
           <p>
             <em>Created by <%= course.author.username %></em><br>
-            Find the course in <strong><%= course.location %></strong>
+            Find the course in <strong><a href="<%= course.location %>"><%= course.gym %></a></strong>
             <strong class="float-right">$<%= course.price %>/class</strong>
           </p>
           <% if(currentUser && course.author.id.equals(currentUser._id)){ %>

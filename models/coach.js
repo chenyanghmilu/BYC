@@ -13,6 +13,8 @@ var coachSchema = new Schema({
 
   image: String,
 
+  gym: String,
+
   location: String,
 
   course: [{type: Schema.Types.ObjectId, ref: 'Course'}],

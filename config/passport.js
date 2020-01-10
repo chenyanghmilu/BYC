@@ -14,7 +14,7 @@ function(accessToken, refreshToken, profile, cb) {
             if (user) {
             return user;
             }
-
+            
             return User.create({
             username: profile.displayName,
             email: profile.emails[0].value,

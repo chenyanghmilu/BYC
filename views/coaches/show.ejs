@@ -17,7 +17,7 @@
         <p><%= coach.description%></p>
         <p>
             <em>Created by <%= coach.author.username %></em><br>
-            Find the coach in <strong><%= coach.location %></strong>
+            Find the coach in <strong><a href="<%= coach.location %>"><%= coach.gym %></a></strong>
             <strong class="float-right"><%= coach.experience %>years experience</strong>
         </p>
         <% if(currentUser && coach.author.id.equals(currentUser._id)){ %>

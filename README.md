@@ -52,7 +52,7 @@ A user wants to have a place where they can create, view, edit, and delete the f
 
 The  full-stack express CRUD app: http://burn-your-calorie.herokuapp.com/
 
-![screenshot]([https://github.com/chenyanghmilu/BYC/blob/master/assets/Screen%20Shot%202020-01-09%20at%205.00.59%20PM.png](https://github.com/chenyanghmilu/BYC/blob/master/assets/Screen Shot 2020-01-09 at 5.00.59 PM.png)) 
+![screenshot](https://github.com/chenyanghmilu/BYC/blob/master/assets/Screen Shot 2020-01-09 at 5.00.59 PM.png)
 
 ##  **Unsolved Problems/Next Steps**
 

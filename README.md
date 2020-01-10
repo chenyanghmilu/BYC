@@ -50,7 +50,11 @@ A user wants to have a place where they can create, view, edit, and delete the f
 
 ## **Getting Started**
 
-The  full-stack express CRUD app: http://burn-your-calorie.herokuapp.com/![screenshot](https://github.com/chenyanghmilu/BYC/blob/master/assets/Index-Screen-Shot.png?raw=true)
+The  full-stack express CRUD app: http://burn-your-calorie.herokuapp.com/
+
+
+
+![screenshot](https://github.com/chenyanghmilu/BYC/blob/master/assets/Index-Screen-Shot.png?raw=true)
 
 ##  **Unsolved Problems/Next Steps**
 

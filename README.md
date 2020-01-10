@@ -56,6 +56,7 @@ The  full-stack express CRUD app: http://burn-your-calorie.herokuapp.com/
 
 ##  **Unsolved Problems/Next Steps**
 
+- Connect the functions of courses and coaches to make courses info and coaches info can  interact dynamic.
 - Add a function to upload pictures from users' loacal devices or sources.
 - Add short video framwork to upload and play short video on the web page.
 

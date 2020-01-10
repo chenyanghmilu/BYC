@@ -1,7 +1,5 @@
 # **Burn Your Calorie**
 
-==========================================================
-
 ## **User Story**
 
 A user wants to have a place where they can create, view, edit, and delete the fitness courses and excellent coaches which they meet. The health food recipes can be search online as a treat after exercise.

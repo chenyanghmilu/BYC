@@ -4,13 +4,9 @@
 
 ## **User Story**
 
------------------------
-
 A user wants to have a place where they can create, view, edit, and delete the fitness courses and excellent coaches which they meet. The health food recipes can be search online as a treat after exercise.
 
 ## Acceptance Criteria:
-
-----------------------------------
 
 ### Users should be able to:
 
@@ -21,8 +17,6 @@ A user wants to have a place where they can create, view, edit, and delete the f
 - Friendly UX.
 
 ## **Technologies Used**
-
---------------------------------------
 
 - HTML5/EJS*: the app uses embedded javascript to render information on the page*
 
@@ -56,15 +50,11 @@ A user wants to have a place where they can create, view, edit, and delete the f
 
 ## **Getting Started**
 
---------------------
-
 The  full-stack express CRUD app: http://burn-your-calorie.herokuapp.com/
 
 ![screenshot](/Users/yangchen/Desktop/Screen Shot 2020-01-09 at 5.00.59 PM.png) 
 
 ##  **Unsolved Problems/Next Steps**
-
----------------
 
 - Add a function to upload pictures from users' loacal devices or sources.
 - Add short video framwork to upload and play short video on the web page.

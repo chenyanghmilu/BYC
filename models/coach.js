@@ -2,38 +2,36 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var coachSchema = new Schema({
-  name: {
-    type: String,
-    required: true,
-  },
+    name: {
+        type: String,
+        required: true,
+    },
 
-  experience: Number,
+    experience: Number,
 
-  description: String,
+    description: String,
 
-  image: String,
+    image: String,
 
-  gym: String,
+    gym: String,
 
-  location: String,
+    location: String,
 
-  course: [{type: Schema.Types.ObjectId, ref: 'Course'}],
+    course: [{ type: Schema.Types.ObjectId, ref: 'Course' }],
 
-  comments: [
-    {
+    comments: [{
         type: Schema.Types.ObjectId,
         ref: "Comment"
-    }
-  ],
+    }],
 
-  author: {
-    id: {
-        type: Schema.Types.ObjectId,
-        ref: "User"
+    author: {
+        id: {
+            type: Schema.Types.ObjectId,
+            ref: "User"
+        },
     },
-},
-  }, {
-  timestamps: true
+}, {
+    timestamps: true
 });
 
 module.exports = mongoose.model('Coach', coachSchema);
